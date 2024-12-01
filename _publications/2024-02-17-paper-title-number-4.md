@@ -1,13 +1,14 @@
 ---
-title: "Paper Title Number 4"
+title: "Deep orthogonal hypersphere compression for anomaly detection"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/2024-01-16-dohc
+excerpt: '**Anomaly Detection:** Introduces hypersphere-based methods (DOHSC, DO2HSC) for anomaly detection, including graph-level cases, offering compact decision regions and improved accuracy.'
+date: 2024-01-16
+venue: 'The Twelfth International Conference on Learning Representations (Spotlight)'
+# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+paperurl: 'https://openreview.net/pdf?id=cJs4oE4m9Q'
+citation: 'Zhang, Y., Sun, Y., Cai, J., & Fan, J. (2024). Deep orthogonal hypersphere compression for anomaly detection. In The Twelfth International Conference on Learning Representations.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+In this paper, we first propose a novel deep anomaly detection model that improves the original hypersphere learning through an orthogonal projection layer, which ensures that the training data distribution is consistent with the hypersphere hypothesis, thereby increasing the true positive rate and decreasing the false negative rate. Moreover, we propose a bi-hypersphere compression method to obtain a hyperspherical shell that yields a more compact decision region than a hyperball, which is demonstrated theoretically and numerically. The proposed methods are not confined to common datasets such as image and tabular data, but are also extended to a more challenging but promising scenario, graph-level anomaly detection, which learns graph representation with maximum mutual information between the substructure and global structure features while exploring orthogonal single- or bi-hypersphere anomaly decision boundaries. The numerical and visualization results on benchmark datasets demonstrate the superiority of our methods in comparison to many baselines and state-of-the-art methods.
