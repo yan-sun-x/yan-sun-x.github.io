@@ -17,10 +17,11 @@ My research interests span algorithms in machine learning and their applications
 
 News
 ======
+- 2025.01: One paper ([UMKL-G](https://openreview.net/pdf?id=6nb2J90XJD)) was accepted by ICLR'25!
 - 2024.11: Awarded Google PhD Fellowship 2024 (Algorithms and Theory track) 🎉
 - 2024.10: Passed my qualifying exam! 🙏
 - 2024.10: One paper accepted by ICIS'24! 🎉
-- 2023.10: Two papers were accepted as **splotlight** by ICLR'24! Thanks to my co-authors! 🎉🎉
+- 2023.10: Two papers ([DO2HSC](https://openreview.net/pdf?id=cJs4oE4m9Q) [MMDGK](https://openreview.net/pdf?id=GZ6AcZwA8r)) were accepted as **splotlight** by ICLR'24! Thanks to my co-authors! 🎉🎉
 - 2023.08: Embark my Ph.D. journey in NUS! 😄
 - 2023.07: One paper accepted by TKDD! Thanks to my co-authors! 🎉
 
