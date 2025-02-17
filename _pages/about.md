@@ -11,7 +11,7 @@ Hi, everyone! Welcome to Yan Sun (孙彦)'s personal website.
 
 I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.html), School of Computing, National University of Singapore, advised by [Dr. Stanley Kok](https://www.comp.nus.edu.sg/~skok/index.html). Prior to this, I graduated from the Chinese University of Hong Kong, Shenzhen, under the guidance of [Dr. Jicong Fan](https://jicongfan.github.io/).
 
-My research interests span algorithms in machine learning and their applications. *Now, I am interested in online algorithms on agentic planning and reasoning.* Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection.
+My research interests span algorithms in machine learning and their applications. Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection.
 
 🌟 I have been honored with Google PhD Fellow!
 
