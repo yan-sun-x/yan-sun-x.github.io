@@ -17,6 +17,7 @@ My research interests span algorithms in machine learning and their applications
 
 News
 ======
+- 2025.02: I will attend AAAI'25 in Pennsylvania. Welcome to catch up and chat!
 - 2025.01: [UMKL-G](https://openreview.net/pdf?id=6nb2J90XJD) was accepted by ICLR'25! 🎉
 - 2024.11: Awarded Google PhD Fellowship 2024 (Algorithms and Theory track) 🎉
 - 2024.10: Passed my qualifying exam! 🙏
