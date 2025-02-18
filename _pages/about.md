@@ -32,7 +32,7 @@ News
 
 ---
 
-> In my leisure time, I enjoy music 🎵, books 📖 , food 😋.
+> In my leisure time, I enjoy music 🎵, books 📖 , and food 😋.
 
 <!-- > My [life interests](http://yansun-x.notion.site) are music 🎵, books 📖 , food 😋 in my leisure time. -->
 
