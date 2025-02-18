@@ -18,8 +18,6 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 
 My research interests span algorithms in machine learning and their applications. Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
 
-> My [life interests](http://yansun-x.notion.site) are music 🎵, books 📖 , food 😋 in my leisure time.
-
 News
 ======
 - 2025.02: I'll be attending AAAI'25! Feel free to check out my conference [notes](https://persistent-gambler-554.notion.site/Notebook-AAAI-25-19d31227d0d38027b221ff2520245822?pvs=74) 😄
@@ -32,6 +30,9 @@ News
 - 2023.07: One paper accepted by TKDD! Thanks to my co-authors! 🎉
 
 
+---
+
+> My [life interests](http://yansun-x.notion.site) are music 🎵, books 📖 , food 😋 in my leisure time.
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
