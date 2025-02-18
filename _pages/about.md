@@ -13,8 +13,8 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 
 🌟 I have been honored with Google PhD Fellow!
 
-
-> *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.*
+<!-- 
+> *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
 My research interests span algorithms in machine learning and their applications. Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
 
