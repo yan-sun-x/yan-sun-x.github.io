@@ -11,7 +11,7 @@ Hi, everyone! Welcome to Yan Sun (孙彦)'s personal website.
 
 I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.html), School of Computing, National University of Singapore, advised by [Dr. Stanley Kok](https://www.comp.nus.edu.sg/~skok/index.html). Prior to this, I graduated from the Chinese University of Hong Kong, Shenzhen, under the guidance of [Dr. Jicong Fan](https://jicongfan.github.io/).
 
-🌟 I have been honored with Google PhD Fellow!
+🌟 I have been honored with Google PhD Fellowship!
 
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
