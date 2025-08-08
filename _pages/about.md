@@ -16,7 +16,10 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
-My research interests span algorithms in machine learning and their applications. Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
+My research interests span algorithms in machine learning and their applications.Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
+
+**I am currently conducting research on large language model (LLM) training at [Ant group](https://www.antgroup.com/en), with a particular interest in understanding the reasoning behavior.** 
+
 
 News
 ======
@@ -31,10 +34,9 @@ News
 
 
 ---
+<!-- > In my leisure time, I enjoy music 🎵, books 📖 , and food 😋. -->
 
-> In my leisure time, I enjoy music 🎵, books 📖 , and food 😋.
-
-<!-- > My [life interests](http://yansun-x.notion.site) are music 🎵, books 📖 , food 😋 in my leisure time. -->
+> My [life interests](http://yansun-x.notion.site) are music 🎵, books 📖 , food 😋 in my leisure time.
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
