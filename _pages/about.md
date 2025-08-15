@@ -18,8 +18,8 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 
 My research interests span algorithms in machine learning and their applications.Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
 
-I am currently conducting research on large language model (LLM) training, with a particular interest in understanding the reasoning behavior.
-
+<!-- I am currently conducting research on large language model (LLM) training, with a particular interest in understanding the reasoning behavior.
+ -->
 
 News
 ======
