@@ -24,6 +24,7 @@ My research interests span algorithms in machine learning and their applications
 News
 ======
 <!-- - 2025.02: I'll be attending AAAI'25! Feel free to check out my conference [notes](https://persistent-gambler-554.notion.site/Notebook-AAAI-25-19d31227d0d38027b221ff2520245822?pvs=74) 😄 -->
+- 2025.08: [PREPO](https://yansun-x.notion.site/data-efficiency-prepo) has been released for data-efficient RL post-training. Check it out!
 - 2025.01: [UMKL-G](https://openreview.net/pdf?id=6nb2J90XJD) was accepted by ICLR'25! 🎉
 - 2024.11: Awarded [Google PhD Fellowship 2024](http://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024) (Algorithms and Theory track) 🎉
 - 2024.10: Passed my qualifying exam! 🙏
@@ -36,8 +37,7 @@ News
 ---
 <!-- > In my leisure time, I enjoy music 🎵, books 📖 , and food 😋. -->
 
-> My [life interests](http://yansun-x.notion.site) are music 🎵, books 📖 , food 😋 in my leisure time.
-
+> In my spare time, I enjoy music 🎵, books 📖 , food 😋.
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
