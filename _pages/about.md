@@ -24,7 +24,7 @@ My research interests span algorithms in machine learning and their applications
 News
 ======
 <!-- - 2025.02: I'll be attending AAAI'25! Feel free to check out my conference [notes](https://persistent-gambler-554.notion.site/Notebook-AAAI-25-19d31227d0d38027b221ff2520245822?pvs=74) 😄 -->
-- 2025.08: [PREPO](https://yansun-x.notion.site/data-efficiency-prepo) has been released for data-efficient RL post-training. Check it out!
+- 2025.08: [PREPO](https://yansun-x.notion.site/data-efficiency-prepo) has been released for data-efficient RL post-training. Check it out! 🚀
 - 2025.01: [UMKL-G](https://openreview.net/pdf?id=6nb2J90XJD) was accepted by ICLR'25! 🎉
 - 2024.11: Awarded [Google PhD Fellowship 2024](http://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024) (Algorithms and Theory track) 🎉
 - 2024.10: Passed my qualifying exam! 🙏
