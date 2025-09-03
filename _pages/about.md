@@ -29,7 +29,7 @@ News
 - 2024.11: Awarded [Google PhD Fellowship 2024](http://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024) (Algorithms and Theory track) 🎉
 - 2024.10: Passed my qualifying exam! 🙏
 - 2024.10: One [paper](https://aisel.aisnet.org/icis2024/aiinbus/aiinbus/19/) accepted by ICIS'24! 🎉
-- 2024.01: [DO2HSC](https://openreview.net/pdf?id=cJs4oE4m9Q) and [MMD-GK](https://openreview.net/pdf?id=GZ6AcZwA8r) were accepted as **splotlight** by ICLR'24! Thanks to my co-authors! 🎉🎉
+- 2024.01: [DO2HSC](https://openreview.net/pdf?id=cJs4oE4m9Q) and [MMD-GK](https://openreview.net/pdf?id=GZ6AcZwA8r) were accepted as **spotlight** by ICLR'24! Thanks to my co-authors! 🎉🎉
 - 2023.08: Embark my Ph.D. journey in NUS! 😄
 - 2023.07: One paper accepted by TKDD! Thanks to my co-authors! 🎉
 
