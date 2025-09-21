@@ -16,16 +16,16 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
-My research interests span algorithms in large language model (LLM), machine learning and their applications. Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
+My research interests span algorithms in large language models (LLMs), machine learning and their applications. Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
 
 I am currently conducting research on reinforcement learning for LLM. Please feel free to contact with me via email or DM me on LinkedIn and X!
 
 News
 ======
 <!-- - 2025.02: I'll be attending AAAI'25! Feel free to check out my conference [notes](https://persistent-gambler-554.notion.site/Notebook-AAAI-25-19d31227d0d38027b221ff2520245822?pvs=74) 😄 -->
-- 2025.09: [IcePop](https://ringtech.notion.site/icepop) has been release for more stable RL training on MoE models. Shout out to the team! 🙌
+- 2025.09: [IcePop](https://ringtech.notion.site/icepop) has been released to enable more stable reinforcement learning (RL) training for mixture-of-experts models. Shout out to the team! 🙌
 - 2025.09: I have been selected to participate in the 12th [Heidelberg Laureate Forum (HLF)](https://www.heidelberg-laureate-forum.org/) in Heidelberg, Germany this September! 🫡
-- 2025.08: [PREPO](https://yansun-x.notion.site/data-efficiency-prepo) has been released for data-efficient RL post-training. Check it out! 🚀
+- 2025.08: [PREPO](https://yansun-x.notion.site/data-efficiency-prepo) has been released for data-efficient RL training for LLMs. Check it out! 🚀
 - 2025.01: [UMKL-G](https://openreview.net/pdf?id=6nb2J90XJD) was accepted by ICLR'25! 🎉
 - 2024.11: Awarded [Google PhD Fellowship 2024](http://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024) (Algorithms and Theory track) 🎉
 - 2024.10: Passed my qualifying exam! 🙏
