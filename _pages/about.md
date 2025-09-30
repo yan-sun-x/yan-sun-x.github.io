@@ -35,7 +35,7 @@ Efficient Reasoning](https://efficient-reasoning.github.io/). 🎉
 - 2024.10: [Paper](https://aisel.aisnet.org/icis2024/aiinbus/aiinbus/19/) on evaluating `LLM bias` accepted by ICIS'24! 🎉
 - 2024.01: [DO2HSC](https://openreview.net/pdf?id=cJs4oE4m9Q) on `abnomaly detection` and [MMD-GK](https://openreview.net/pdf?id=GZ6AcZwA8r) on `graph kernel` were accepted as **spotlight** by ICLR'24! Thanks to my co-authors! 🎉🎉
 - 2023.08: Embark my Ph.D. journey in NUS! 😄
-- 2023.07: [LaptSNE](https://arxiv.org/pdf/2207.12214) on dimension reduction was accepted by TKDD! Thanks to my co-authors! 🎉
+- 2023.07: [LaptSNE](https://arxiv.org/pdf/2207.12214) on `dimensionality reduction` was accepted by TKDD! Thanks to my co-authors! 🎉
 
 
 ---
