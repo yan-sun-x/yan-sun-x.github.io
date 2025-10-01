@@ -59,6 +59,11 @@
 }
 
 .page__footer-follow {
+  max-width: 600px;   /* or whatever you want */
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  
   ul {
     margin: 0;
     padding: 0;
