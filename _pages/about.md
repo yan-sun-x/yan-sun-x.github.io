@@ -18,9 +18,29 @@ My research interests span algorithms in large language models (LLMs), reinforce
 
 <!-- Please feel free to contact with me via email or message me on LinkedIn and X! -->
 
-News
+<section id="news-section">
+  <h2>News</h2>
+  <div class="news-list">
+    <ul>
+      <li>2025.10: Paper on modeling proactive <code>web agent</code> accepted by ICIS’25! 🎉</li>
+      <li>2025.09: PREPO was accepted at <a href="https://efficient-reasoning.github.io/">NeurIPS’25 Workshop on Efficient Reasoning</a>. 🎉</li>
+      <li>2025.09: <a href="https://ringtech.notion.site/icepop">IcePop</a> has been released to enable more stable <code>RL training for LLMs</code>. 🙌</li>
+      <li>2025.09: I have been selected to participate in the <a href="https://www.heidelberg-laureate-forum.org/">12th Heidelberg Laureate Forum</a> in Heidelberg, Germany this September! 🫡</li>
+      <li>2025.08: <a href="https://yansun-x.notion.site/data-efficiency-prepo">PREPO</a> has been released for data-efficient <code>RL training for LLMs</code>! 🚀</li>
+      <li>2025.01: <a href="https://openreview.net/pdf?id=6nb2J90XJD">UMKL-G</a> on <code>graph kernel</code> was accepted by ICLR’25! 🎉</li>
+      <li>2024.11: Awarded <a href="http://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024">Google PhD Fellowship 2024</a> (Algorithms and Theory track) 🙏</li>
+      <li>2024.10: Passed my qualifying exam! 🙏</li>
+      <li>2024.10: <a href="https://aisel.aisnet.org/icis2024/aiinbus/aiinbus/19/">Paper</a> on evaluating <code>LLM bias</code> accepted by ICIS’24! 🎉</li>
+      <li>2024.01: <a href="https://openreview.net/pdf?id=cJs4oE4m9Q">DO2HSC</a> on <code>abnomaly detection</code> and <a href="https://openreview.net/pdf?id=GZ6AcZwA8r">MMD-GK</a> on <code>graph kernel</code> were accepted as <strong>spotlight</strong> by ICLR’24! Thanks to my co-authors! 🎉🎉</li>
+      <li>2023.08: Embark my Ph.D. journey in NUS! 😄</li>
+      <li>2023.07: <a href="https://arxiv.org/pdf/2207.12214">LaptSNE</a> on <code>dimensionality reduction</code> was accepted by TKDD! Thanks to my co-authors! 🎉</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- News
 ======
-<!-- - 2025.02: I'll be attending AAAI'25! Feel free to check out my conference [notes](https://persistent-gambler-554.notion.site/Notebook-AAAI-25-19d31227d0d38027b221ff2520245822?pvs=74) 😄 -->
 - 2025.10: Paper on modeling proactive `web agent` accepted by ICIS'25! 🎉
 - 2025.09: PREPO was accepted at [NeurIPS'25 Workshop on
 Efficient Reasoning](https://efficient-reasoning.github.io/). 🎉
@@ -33,7 +53,7 @@ Efficient Reasoning](https://efficient-reasoning.github.io/). 🎉
 - 2024.10: [Paper](https://aisel.aisnet.org/icis2024/aiinbus/aiinbus/19/) on evaluating `LLM bias` accepted by ICIS'24! 🎉
 - 2024.01: [DO2HSC](https://openreview.net/pdf?id=cJs4oE4m9Q) on `abnomaly detection` and [MMD-GK](https://openreview.net/pdf?id=GZ6AcZwA8r) on `graph kernel` were accepted as **spotlight** by ICLR'24! Thanks to my co-authors! 🎉🎉
 - 2023.08: Embark my Ph.D. journey in NUS! 😄
-- 2023.07: [LaptSNE](https://arxiv.org/pdf/2207.12214) on `dimensionality reduction` was accepted by TKDD! Thanks to my co-authors! 🎉
+- 2023.07: [LaptSNE](https://arxiv.org/pdf/2207.12214) on `dimensionality reduction` was accepted by TKDD! Thanks to my co-authors! 🎉 -->
 
 
 ---
