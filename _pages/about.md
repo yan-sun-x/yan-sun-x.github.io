@@ -30,7 +30,7 @@ Efficient Reasoning](https://efficient-reasoning.github.io/). 🎉
 - 2025.09: I have been selected to participate in the [12th Heidelberg Laureate Forum](https://www.heidelberg-laureate-forum.org/) in Heidelberg, Germany this September! 🫡
 - 2025.08: [PREPO](https://yansun-x.notion.site/data-efficiency-prepo) has been released for data-efficient `RL training for LLMs`! 🚀
 - 2025.01: [UMKL-G](https://openreview.net/pdf?id=6nb2J90XJD) on `graph kernel` was accepted by ICLR'25! 🎉
-- 2024.11: Awarded [Google PhD Fellowship 2024](http://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024) (Algorithms and Theory track) 🎉
+- 2024.11: Awarded [Google PhD Fellowship 2024](http://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024) (Algorithms and Theory track) 🙏
 - 2024.10: Passed my qualifying exam! 🙏
 - 2024.10: [Paper](https://aisel.aisnet.org/icis2024/aiinbus/aiinbus/19/) on evaluating `LLM bias` accepted by ICIS'24! 🎉
 - 2024.01: [DO2HSC](https://openreview.net/pdf?id=cJs4oE4m9Q) on `abnomaly detection` and [MMD-GK](https://openreview.net/pdf?id=GZ6AcZwA8r) on `graph kernel` were accepted as **spotlight** by ICLR'24! Thanks to my co-authors! 🎉🎉
