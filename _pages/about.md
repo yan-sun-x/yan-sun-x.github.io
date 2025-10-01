@@ -16,7 +16,7 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
-My research interests span algorithms in large language models (LLMs), machine learning and their applications. Previously, I have worked on graph-level tasks, including graph kernels and anomaly detection. 
+My research interests span algorithms in large language models (LLMs), reinforcement learning (RL), machine learning and their applications. I have worked on graph-level tasks, including graph kernels and anomaly detection. 
 
 <!-- Please feel free to contact with me via email or message me on LinkedIn and X! -->
 
@@ -26,7 +26,7 @@ News
 - 2025.10: Paper on modeling proactive `web agent` accepted by ICIS'25! 🎉
 - 2025.09: PREPO was accepted at [NeurIPS'25 Workshop on
 Efficient Reasoning](https://efficient-reasoning.github.io/). 🎉
-- 2025.09: [IcePop](https://ringtech.notion.site/icepop) has been released to enable more stable reinforcement learning (RL) training for mixture-of-experts models. Shout out to the team! 🙌
+- 2025.09: [IcePop](https://ringtech.notion.site/icepop) has been released to enable more stable `RL training for LLMs`. 🙌
 - 2025.09: I have been selected to participate in the [12th Heidelberg Laureate Forum](https://www.heidelberg-laureate-forum.org/) in Heidelberg, Germany this September! 🫡
 - 2025.08: [PREPO](https://yansun-x.notion.site/data-efficiency-prepo) has been released for data-efficient `RL training for LLMs`! 🚀
 - 2025.01: [UMKL-G](https://openreview.net/pdf?id=6nb2J90XJD) on `graph kernel` was accepted by ICLR'25! 🎉
