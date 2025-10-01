@@ -25,7 +25,7 @@ My research interests span algorithms in large language models (LLMs), reinforce
       <li>2025.10: Paper on modeling proactive <code>web agent</code> accepted by ICIS’25! 🎉</li>
       <li>2025.09: PREPO was accepted at <a href="https://efficient-reasoning.github.io/">NeurIPS’25 Workshop on Efficient Reasoning</a>. 🎉</li>
       <li>2025.09: <a href="https://ringtech.notion.site/icepop">IcePop</a> has been released to enable more stable <code>RL training for LLMs</code>. 🙌</li>
-      <li>2025.09: I have been <a href="https://drive.google.com/file/d/1tHbZ5tyf21L1z8B8MldU_sU91TEWZOx8/view?usp=drive_link"> selected </a> to participate in the <a href="https://www.heidelberg-laureate-forum.org/">12th Heidelberg Laureate Forum</a> in Heidelberg, Germany this September! 🫡</li>
+      <li>2025.09: I have been <a href="https://drive.google.com/file/d/1tHbZ5tyf21L1z8B8MldU_sU91TEWZOx8/view?usp=drive_link"> selected</a> to participate in the <a href="https://www.heidelberg-laureate-forum.org/">12th Heidelberg Laureate Forum</a> in Heidelberg, Germany this September! 🫡</li>
       <li>2025.08: <a href="https://yansun-x.notion.site/data-efficiency-prepo">PREPO</a> has been released for data-efficient <code>RL training for LLMs</code>! 🚀</li>
       <li>2025.02: I received <a href="https://drive.google.com/file/d/1Unxv-cjGjmm4p7IAsIlD-0QgQTGaDCWc/view?usp=drive_link">Research Achievement Award</a> from School of Computing, NUS! 🙏
       <li>2025.01: <a href="https://openreview.net/pdf?id=6nb2J90XJD">UMKL-G</a> on <code>graph kernel</code> was accepted by ICLR’25! 🎉</li>
