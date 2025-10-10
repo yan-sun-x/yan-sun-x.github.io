@@ -22,6 +22,7 @@ My research interests span algorithms in large language models (LLMs), reinforce
   <h2>News</h2>
   <div class="news-list">
     <ul>
+      <li>2025.10: Paper on self-improving <code>code agent</code> accepted by WITS'25! 🎉</li>
       <li>2025.10: Paper on modeling proactive <code>web agent</code> accepted by ICIS’25! 🎉</li>
       <li>2025.09: PREPO was accepted at <a href="https://efficient-reasoning.github.io/">NeurIPS’25 Workshop on Efficient Reasoning</a>. 🎉</li>
       <li>2025.09: <a href="https://ringtech.notion.site/icepop">IcePop</a> has been released to enable more stable <code>RL training for LLMs</code>. 🙌</li>
