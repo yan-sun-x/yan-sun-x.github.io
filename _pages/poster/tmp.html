@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREPO Academic Poster (24x36)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Handwriting Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gochi+Hand&family=Patrick+Hand&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- MathJax Configuration -->
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+    </script>
+    <!-- MathJax for Equations -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        :root {
+            --paper-color: #fdfbf7;
+            --ink-color: #2d3748;
+            --highlight-yellow: #fef08a;
+            --highlight-blue: #bfdbfe;
+            --highlight-green: #bbf7d0;
+            --highlight-red: #fecaca;
+        }
+
+        /* --- PRINT SETTINGS (The Strict 24x36 Requirement) --- */
+        @page {
+            size: 24in 36in;
+            margin: 0;
+        }
+
+        /* --- SCREEN SETTINGS (User Friendly View) --- */
+        body {
+            background-color: #555;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Patrick Hand', cursive; 
+            color: var(--ink-color);
+            overflow: auto; /* Allow scrolling if window is very small */
+        }
+
+        /* The Viewport Container - Handles zooming for screen */
+        #preview-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* The Poster Base */
+        #poster {
+            /* Base resolution for design (2:3 aspect ratio) */
+            width: 1200px;
+            height: 1800px;
+            background-color: var(--paper-color);
+            position: relative;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            /* Grid Layout */
+            display: grid;
+            grid-template-rows: auto auto 1fr auto; 
+            padding: 40px;
+            box-sizing: border-box;
+            
+            /* Screen Scaling: Scale down to fit height of window */
+            transform: scale(0.45); /* Default comfortable view scale */
+            transform-origin: center center;
+        }
+        
+        /* Responsive scaling for different screen heights */
+        @media (min-height: 800px) { #poster { transform: scale(0.5); } }
+        @media (min-height: 1000px) { #poster { transform: scale(0.6); } }
+        @media (min-height: 1200px) { #poster { transform: scale(0.7); } }
+
+        /* --- PRINT OVERRIDES (Enforce 24in x 36in) --- */
+        @media print {
+            body, #preview-container {
+                background: none;
+                display: block;
+                height: auto;
+                width: auto;
+                overflow: visible;
+            }
+
+            #poster {
+                /* 24 inches * 96 DPI = 2304px */
+                /* Base is 1200px. Scale needed: 2304 / 1200 = 1.92 */
+                transform: scale(1.92);
+                transform-origin: top left;
+                width: 1200px; /* Keep base width, scale handles the rest */
+                height: 1800px;
+                box-shadow: none;
+                margin: 0;
+                page-break-after: always;
+            }
+        }
+
+        /* --- STYLING (Unchanged) --- */
+
+        /* Hand-drawn borders */
+        .box-border-dashed {
+            border: 3px dashed #333;
+            border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+            background: white;
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+        }
+
+        .box-border-solid {
+            border: 3px solid #333;
+            border-radius: 2px;
+            border-top-left-radius: 255px 15px;
+            border-top-right-radius: 15px 225px;
+            border-bottom-right-radius: 225px 15px;
+            border-bottom-left-radius: 15px 255px;
+            background: white;
+        }
+
+        /* Typography */
+        h1 {
+            /* UPDATED FONT STYLE */
+            font-family: 'Roboto Slab', serif; 
+            line-height: 1.1;
+            letter-spacing: -1px;
+        }
+        h2 {
+            font-family: 'Architects Daughter', cursive;
+            border-bottom: 2px solid #333;
+            display: inline-block;
+            margin-bottom: 10px;
+            padding-right: 20px;
+        }
+        h3 {
+            font-family: 'Gochi Hand', cursive;
+            color: #4b5563;
+        }
+        
+        .marker-highlight {
+            background: linear-gradient(120deg, rgba(255,255,0,0) 0%, rgba(255,255,0,0) 10%, var(--highlight-yellow) 10%, var(--highlight-yellow) 90%, rgba(255,255,0,0) 90%);
+        }
+
+        /* Drawing Styles */
+        .sketch-line {
+            fill: none;
+            stroke: #333;
+            stroke-width: 3;
+            stroke-linecap: round;
+        }
+
+        /* Chart Styles */
+        .bar {
+            transition: height 0.5s ease;
+            border: 2px solid #333;
+            border-radius: 4px 4px 0 0;
+            position: relative;
+        }
+        .bar-pattern {
+            background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(0,0,0,0.1) 5px, rgba(0,0,0,0.1) 10px);
+        }
+
+        /* Layout Grid for Main Content */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+            height: 100%;
+        }
+
+        .left-col {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .right-col {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .sticky-note {
+            background-color: var(--highlight-yellow);
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+            transform: rotate(-2deg);
+        }
+
+        .tape {
+            background-color: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            position: absolute;
+            height: 30px;
+            width: 100px;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%) rotate(2deg);
+            border-left: 1px dashed rgba(0,0,0,0.1);
+            border-right: 1px dashed rgba(0,0,0,0.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="preview-container">
+        <div id="poster">
+            
+            <!-- Header Section -->
+            <!-- Header Section -->
+            <header class="mb-6 relative flex items-center justify-between">
+                <!-- GitHub QR (Left) -->
+                <div class="flex flex-col items-center mr-1 shrink-1">
+                    <a href="https://github.com/yan-sun-x/PREPO" target="_blank" class="block border-2 border-dashed border-gray-500 p-1 rounded-lg bg-white transform -rotate-2 hover:rotate-0 transition-transform">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/yan-sun-x/PREPO" alt="GitHub" class="w-30 h-30 object-cover">
+                    </a>
+                    <span class="text-2xl font-bold mt-0 text-gray-500">GitHub</span>
+                </div>
+
+                <!-- Center Title/Authors -->
+                <div class="text-center flex-grow">
+                    <h1 class="text-6xl font-bold mb-4 text-slate-800">
+                        Efficient RL for Large Language Models <br>
+                        <span class="text-5xl text-blue-600">with Intrinsic Exploration (PREPO)</span>
+                    </h1>
+                    
+                    <div class="flex justify-center items-center gap-2 mb-2">
+                        <!-- Updated Author Affiliation Marks -->
+                        <p class="text-2xl font-bold">Yan Sun<sup>1,2</sup>, Jia Guo<sup>2</sup>, Stanley Kok<sup>1</sup>, Zihao Wang<sup>2</sup>, Zujie Wen<sup>2</sup>, Zhiqiang Zhang<sup>2</sup></p>
+                    </div>
+                    <div class="flex justify-center items-center gap-2 mb-2">
+                        <!-- Updated Affiliation Key -->
+                        <p class="text-2xl font-bold"><sup>1</sup>National University of Singapore, <sup>2</sup>Ant Group</p>
+                    </div>
+                    
+                    <div class="inline-block bg-black text-white px-4 py-1 transform -rotate-1 shadow-lg">
+                        <p class="text-2xl">NeurIPS 2025 Efficient Reasoning Workshop</p>
+                    </div>
+                </div>
+
+                <!-- Paper QR (Right) -->
+                <div class="flex flex-col items-center ml-1 shrink-1">
+                    <a href="https://openreview.net/pdf?id=0VuuZ8sKpZ" target="_blank" class="block border-2 border-dashed border-gray-500 p-1 rounded-lg bg-white transform rotate-2 hover:rotate-0 transition-transform">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://openreview.net/pdf?id=0VuuZ8sKpZ" alt="Paper" class="w-30 h-30 object-cover">
+                    </a>
+                    <span class="text-2xl font-bold mt-1 text-gray-500">Paper</span>
+                </div>
+            </header>
+
+            <!-- TL;DR Section -->
+            <div class="box-border-dashed p-4 mb-0 bg-blue-50 relative">
+                <div class="absolute -top-4 left-10 bg-blue-500 text-white px-3 py-1 font-bold text-xl rounded transform -rotate-2 border-2 border-black">TL;DR</div>
+                <p class="text-3xl leading-relaxed mt-0 text-center">
+                    PREPO reduces Reinforcement Learning (RLVR) training costs
+                <p class="text-3xl leading-relaxed mt-0 text-center">
+                    with "intrinsic" metrics—<span class="bg-yellow-200 px-1">Prompt Perplexity</span> & <span class="bg-green-200 px-1">Rollout Entropy</span>—to filter data, guiding exploration.
+                    <!-- It leverages <span class="bg-yellow-200 px-1">intrinsic properties</span> of data to prioritize informative rollouts via <strong class="text-purple-600 underline decoration-dotted">online prompt selection</strong> and <strong class="text-purple-600 underline decoration-dotted">rollout weighting</strong>. -->
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="main-grid">
+                
+                <!-- LEFT COLUMN -->
+                <div class="left-col">
+                    
+                    <!-- Problem Section -->
+                    <section class="box-border-solid p-6 flex-0 bg-white relative">
+                        <h2 class="text-4xl text-red-600">1. The Problem</h2>
+                        <div class="flex items-center gap-4 mt-4">
+                            <div class="w-1/4">
+                                <!-- Sketch: Confused Robot -->
+                                <svg viewBox="0 0 100 100" class="w-full h-auto">
+                                    <!-- Head -->
+                                    <rect x="20" y="20" width="60" height="50" rx="5" fill="#e2e8f0" stroke="#333" stroke-width="3"/>
+                                    <!-- Eyes -->
+                                    <circle cx="35" cy="40" r="5" fill="#333"/>
+                                    <circle cx="65" cy="40" r="5" fill="#333"/>
+                                    <!-- Mouth (Squiggly) -->
+                                    <path d="M35,60 Q50,55 65,60" fill="none" stroke="#333" stroke-width="3"/>
+                                    <!-- Antenna -->
+                                    <line x1="50" y1="20" x2="50" y2="5" stroke="#333" stroke-width="3"/>
+                                    <circle cx="50" cy="5" r="3" fill="red"/>
+                                    <!-- Question Mark -->
+                                    <text x="85" y="30" font-family="Permanent Marker" font-size="40" fill="red">?</text>
+                                </svg>
+                            </div>
+                            <div class="w-3/4">
+                                <ul class="text-2xl space-y-4 list-disc pl-5">
+                                    <li><strong>Costly:</strong> Standard RLVR generates thousands of rollouts.</li>
+                                    <li><strong>Inefficient:</strong> Many samples are too easy or too hard (zero advantage).</li>
+                                    <li><strong>Goal:</strong> Data-efficient RLVR training using data <span class="bg-yellow-200 px-1">intrinsic properties</span>.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="box-border-solid p-6 flex-0 bg-white">
+                        <h2 class="text-4xl text-purple-600">2. Preliminary Analysis</h2>
+                        <!-- IMAGE PLACEHOLDER: figure_a.png -->
+                        <div class="p-2 rounded-xl border-2 border-dashed border-gray-400 h-33 flex items-center justify-center overflow-hidden">
+                             <img src="summary_row5_random_qwen7b_v2.png" alt="preliminary" class="w-full h-full object-contain" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'text-gray-500 font-bold text-center\'>PLACEHOLDER<br>Save image as:<br><span class=\'text-blue-600\'>figure_a.png</span></div>'">
+                        </div>
+                    </section>
+                    
+
+                    <!-- Method Part 1 -->
+                    <section class="box-border-solid p-6 flex-0 bg-white">
+                        <h2 class="text-4xl text-purple-600">3. Method: Online Prompt Selection</h2>
+                        <h3 class="text-3xl mb-2">Strategy: Prompt Perplexity</h3>
+                        
+                        <p class="text-2xl mb-4">Use perplexity as a proxy to select from a candidate batch $\mathcal{B}$ to the actual batch $\mathcal{I}_{\rho}$ at every training step. Train on <strong>Low PPL</strong> to <strong>High PPL</strong> prompts.</p>
+                        <!-- Equation for PPL -->
+                        <!-- <div class="bg-blue-50 border border-blue-200 p-0 mb-2 rounded text-xl text-center">
+                            $$P(\rho) = \exp\left(-\frac{1}{N}\sum_{t=1}^N \log p(x_t|x_{prev})\right)$$
+                        </div> -->
+
+                        <!-- <p class="text-2xl mb-4">Explain the figure</p> -->
+  
+                        <!-- IMAGE PLACEHOLDER: figure_a.png -->
+                        <div class="p-1 rounded-xl border-2 border-dashed border-gray-400 h-64 flex items-center justify-center overflow-hidden">
+                             <img src="ppl-schedule-v2.png" alt="ppl-schedule.png" class="w-full h-full object-contain" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'text-gray-500 font-bold text-center\'>PLACEHOLDER<br>Save image as:<br><span class=\'text-blue-600\'>figure_a.png</span></div>'">
+                        </div>
+                    </section>
+
+        
+                </div>
+                     
+
+                <!-- RIGHT COLUMN -->
+                <div class="right-col">
+                    
+                    <!-- Method Part 2 -->
+                    <section class="box-border-solid p-6 flex-0 bg-white">
+                        <h2 class="text-4xl text-purple-600">4. Method: Rollout Weighting</h2>
+                        <h3 class="text-3xl mb-2">Strategy: Relative Entropy</h3>
+                        
+                        <p class="text-2xl mb-4">Prioritize diverse reasoning paths. Weight rollouts by their average token-level entropy. ($V$: vocabulary size)</p>
+                        
+                        <!-- Equation for Entropy H_i -->
+                       <div class="bg-orange-50 border border-orange-200 p1 mb-2 rounded text-xl text-center">
+                        <!-- <div class="bg-orange-50 border border-orange-200 p-2 mb-2 rounded text-center"> -->
+                            $$\bar{H}_i = -\frac{1}{|o_i|}\sum_{t=1}^{|o_i|} \sum_{v \in V} p(v|x_{t}) \log p(v|x_{t})$$
+                        </div>
+
+                        <!-- <div class="bg-orange-50 p-3 border-l-4 border-orange-400 text-xl text-center mb-4">
+                            $$ w_i = \frac{\bar{H}_i}{\bar{H}} \rightarrow \text{Seek Uncertainty} $$
+                        </div> -->
+  
+                        <!-- Tree Diagram -->
+                         <div class="p-0 rounded-xl border-2 border-dashed border-gray-400 h-50 flex items-center justify-center overflow-hidden">
+                             <img src="rollout_1.png" alt="rollout_1.png" class="w-full h-full object-contain" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'text-gray-500 font-bold text-center\'>PLACEHOLDER<br>Save image as:<br><span class=\'text-blue-600\'>figure_a.png</span></div>'">
+                        </div>
+                        
+                    </section>
+
+                    <!-- Results Section -->
+                    <section class="sticky-note relative flex-0">
+                        <div class="tape"></div>
+                        <h2 class="text-4xl text-black border-none">5. Results</h2>
+                        
+                        <p class="text-2xl mb-4">Tested on Qwen & Llama (MATH500, AIME, Olympiad)</p>
+
+                        <!-- IMAGE PLACEHOLDER: perf.svg -->
+                        <!-- COMPREHENSIVE TABLE -->
+                         <div class="overflow-hidden mb-2 rounded-lg border-2 border-black/10 bg-white/60">
+                            <table class="w-full text-left border-collapse text-base">
+                                <thead>
+                                    <tr class="border-b-2 border-black bg-white/50">
+                                        <th class="text-xl p-1 font-bold">Model</th>
+                                        <th class="text-xl p-1 font-bold">Method</th>
+                                        <th class="text-xl p-1 font-bold">Avg Acc.</th>
+                                        <th class="text-xl p-1 font-bold">Rollouts</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-lg">
+                                    <!-- Qwen2.5-Math-7B -->
+                                    <tr>
+                                        <td class="text-xl p-1 font-bold align-middle bg-white/30 leading-tight" rowspan="2">Qwen2.5-Math-7B<br></td>
+                                        <td class="text-xl p-1 text-gray-600 text-base">Random</td>
+                                        <td class="text-xl p-1 text-base">39.45%</td>
+                                        <td class="text-xl p-1 text-gray-600 text-base">905K</td>
+                                    </tr>
+                                    <tr class="bg-yellow-100 font-bold border-b-2 border-black/20">
+                                        <td class="text-xl p-1 text-blue-800">PREPO</td>
+                                        <td class="text-xl p-1">39.59%</td>
+                                        <td class="text-xl p-1 text-green-700">540K (1.7x)</td>
+                                    </tr>
+
+                                    <!-- Qwen3-4B -->
+                                    <tr>
+                                        <td class="text-xl p-1 font-bold align-middle bg-white/30 leading-tight" rowspan="2">Qwen3-4B<br></td>
+                                        <td class="text-xl p-1 text-gray-600 text-base">Random</td>
+                                        <td class="text-xl p-1 text-base">71.33%</td>
+                                        <td class="text-xl p-1 text-gray-600 text-base">553K</td>
+                                    </tr>
+                                    <tr class="bg-yellow-100 font-bold">
+                                        <td class="text-xl p-1 text-blue-800">PREPO</td>
+                                        <td class="text-xl p-1">75.99%</td>
+                                        <td class="text-xl p-1 text-green-700">348K (1.6x)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="bg-white/90 p-1 rounded-lg border-2 border-dashed border-black/20 h-60 flex items-center justify-center overflow-hidden">
+                             <img src="perf_v2.svg" alt="perf_v2.svg" class="w-full h-full object-contain" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'text-gray-500 font-bold text-center\'>PLACEHOLDER<br>Save image as:<br><span class=\'text-blue-600\'>results.png</span></div>'">
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="mt-2 text-center border-t-2 border-gray-300 pt-4 text-gray-600 text-3xl flex justify-center items-center gap-8">
+                <div class="flex items-center gap-10 bg-white/80 p-1 rounded-xl border-0 border-dashed border-gray-300">
+                     <img src="NeurIPS_Logo.svg" alt="NeurIPS" class="h-8 w-auto object-contain" onerror="this.style.display='none'">
+                    <img src="logo_nus.png" alt="NUS" class="h-8 w-auto object-contain" onerror="this.style.display='none'">
+                    <img src="ant_logo.png" alt="Ant Group" class="h-8 w-auto object-contain" onerror="this.style.display='none'">
+                </div>
+                <!-- <p><strong>Conclusion:</strong> PREPO significantly reduces rollout demand while maintaining high reasoning capability.</p> -->
+            </footer>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
