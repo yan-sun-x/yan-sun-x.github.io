@@ -14,7 +14,7 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
-My research interests lie in **LLM/Multimodal Reinforcement Learning**. I have also worked on graph-level tasks, including graph kernels and anomaly detection. During my PhD, I have participated in research internships at **Tencent** 🐧 and **Ant Group** 🐜.
+My research interests lie in LLM/Multimodal Reinforcement Learning. I have also worked on graph-level tasks, including graph kernels and anomaly detection. During my PhD, I have participated in research internships at Tencent 🐧 and Ant Group 🐜.
 
 <!-- Please feel free to contact with me via email or message me on LinkedIn and X! -->
 
