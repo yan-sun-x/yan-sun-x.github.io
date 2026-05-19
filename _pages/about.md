@@ -9,12 +9,12 @@ redirect_from:
 
 Hi, everyone! Welcome to Yan Sun (孙彦)'s personal website.
 
-I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.html), School of Computing, National University of Singapore (NUS), advised by Prof. [Stanley Kok](https://www.comp.nus.edu.sg/~skok/index.html). Prior to this, I graduated from the Chinese University of Hong Kong, Shenzhen, under the guidance of Prof. [Jicong Fan](https://jicongfan.github.io/). I have been honored with Google PhD Fellowship!
+I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.html), School of Computing, National University of Singapore (NUS) 🦁, advised by Prof. [Stanley Kok](https://www.comp.nus.edu.sg/~skok/index.html). Prior to this, I graduated from the Chinese University of Hong Kong, Shenzhen (CUHK-SZ) 🐲, under the guidance of Prof. [Jicong Fan](https://jicongfan.github.io/). I have been honored with Google PhD Fellowship!
 
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
-My research interests span algorithms in large language models (LLMs), reinforcement learning (RL), machine learning and their applications. I have worked on graph-level tasks, including graph kernels and anomaly detection. 
+My research interests lie in **LLM/Multimodal Reinforcement Learning**. I have also worked on graph-level tasks, including graph kernels and anomaly detection. During my PhD, I have participated in research internships at **Tencent** 🐧 and **Ant Group** 🐜.
 
 <!-- Please feel free to contact with me via email or message me on LinkedIn and X! -->
 
