@@ -14,7 +14,7 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
-My research interests lie in LLM/Multimodal Reinforcement Learning. I have also worked on graph-level tasks, including graph kernels and anomaly detection. During my PhD, I have had wonderful experiences interning at Tencent 🐧 and Ant Group 🐜.
+My research interests lie in reinforcement learning for LLMs and multimodal models. I have also worked on graph-level tasks, including graph kernels and anomaly detection. I am currently a Research Intern at [Tencent](https://x.com/TencentHunyuan) 🐧, and was previously a Research Intern at [Ant Group](https://x.com/AntLingAGI) 🐜.
 
 <!-- Please feel free to contact with me via email or message me on LinkedIn and X! -->
 
@@ -24,6 +24,7 @@ My research interests lie in LLM/Multimodal Reinforcement Learning. I have also 
   <h2>News</h2>
   <div class="news-list">
     <ul>
+      <li>2026.05: <a href="https://ringtech.notion.site/kpop">KPOP</a>, a follow-up to <a href="https://ringtech.notion.site/icepop">IcePop</a>, has been released to further stabilize <code>RL training for LLMs</code>! 🚀</li>
       <li>2025.10: Paper on self-improving <code>code agent</code> accepted by WITS'25! 🎉</li>
       <li>2025.10: <a href="https://aisel.aisnet.org/icis2025/hti/hti/7/">Paper</a> on modeling proactive <code>web agent</code> accepted by ICIS’25! 🎉</li>
       <li>2025.09: PREPO <a href="https://github.com/yan-sun-x/PREPO/">[Github Repo]</a> <a href="https://drive.google.com/file/d/1XDdDW9NhGkhAF7WAXRWEd1rRSKwn3AHT/view?usp=drive_link">[Poster]</a> was accepted at <a href="https://efficient-reasoning.github.io/">NeurIPS’25 Workshop on Efficient Reasoning</a>. 🎉</li>
