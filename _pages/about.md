@@ -16,7 +16,7 @@ I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.ht
 
 My research interests lie in reinforcement learning for LLMs and multimodal models. I have also worked on graph-level tasks, including graph kernels and anomaly detection. I am currently a Research Intern at [Tencent](https://x.com/TencentHunyuan) 🐧, and was previously a Research Intern at [Ant Group](https://x.com/AntLingAGI) 🐜.
 
-<!-- Please feel free to contact with me via email or message me on LinkedIn and X! -->
+I am open to coffee chats ☕️. Please feel free to reach out if you are interested in connecting!
 
 <!-- > Research collaboration is always welcomed! Please feel free to contact with me via email or message me on LinkedIn and X! -->
 
