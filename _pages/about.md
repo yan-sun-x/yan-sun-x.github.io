@@ -24,6 +24,7 @@ I am open to coffee chats ☕️. Please feel free to reach out if you are inter
   <h2>News</h2>
   <div class="news-list">
     <ul>
+      <li>2026.08: <a href="https://hycreator.tencent.com/">HyCreator</a> has been released, an AI creative tool that turns ideas into films! 🎬</li>
       <li>2026.05: <a href="https://ringtech.notion.site/kpop">KPop</a>, a follow-up to <a href="https://ringtech.notion.site/icepop">IcePop</a>, has been released to further stabilize <code>RL training for LLMs</code>! 🚀</li>
       <li>2025.10: Paper on self-improving <code>code agent</code> accepted by WITS'25! 🎉</li>
       <li>2025.10: <a href="https://aisel.aisnet.org/icis2025/hti/hti/7/">Paper</a> on modeling proactive <code>web agent</code> accepted by ICIS’25! 🎉</li>
