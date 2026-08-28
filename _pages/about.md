@@ -7,16 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-Hi, everyone! Welcome to Yan Sun (孙彦)'s personal website.
+Welcome to Yan Sun (孙彦)'s personal website.
 
-I am a Ph.D. candidate in [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.html), School of Computing, National University of Singapore (NUS) 🦁, advised by Prof. [Stanley Kok](https://www.comp.nus.edu.sg/~skok/index.html). Prior to this, I graduated from the Chinese University of Hong Kong, Shenzhen (CUHK-SZ) 🐲, under the guidance of Prof. [Jicong Fan](https://jicongfan.github.io/). I have been honored with Google PhD Fellowship!
+I am a Ph.D. candidate in the [SGEMS lab](https://www.comp.nus.edu.sg/~skok/group.html), School of Computing, National University of Singapore (NUS), advised by Prof. [Stanley Kok](https://www.comp.nus.edu.sg/~skok/index.html). Before that, I received my bachelor's degree from the Chinese University of Hong Kong, Shenzhen (CUHK-SZ), where I was advised by Prof. [Jicong Fan](https://jicongfan.github.io/). I am a recipient of the Google PhD Fellowship (2024).
 
 <!-- 
 > *As Mahatma Gandhi stated, "Live as if you were to die tomorrow. Learn as if you were to live forever." I aspire to learn how to boost AI and better facilitate downstream tasks using simple yet effective algorithms.* -->
 
-My research interests lie in reinforcement learning for LLMs and multimodal models. I have also worked on graph-level tasks, including graph kernels and anomaly detection. I am currently a Research Intern at [Tencent](https://x.com/TencentHunyuan) 🐧, and was previously a Research Intern at [Ant Group](https://x.com/AntLingAGI) 🐜.
+My research focuses on reinforcement learning for LLMs and multimodal models, and I have also worked on graph kernels and anomaly detection. I am currently a Research Intern at [Tencent](https://x.com/TencentHunyuan), previously at [Ant Group](https://x.com/AntLingAGI).
 
-I am open to coffee chats ☕️. Please feel free to reach out if you are interested in connecting!
+Feel free to reach out if you would like to chat.
 
 <!-- > Research collaboration is always welcomed! Please feel free to contact with me via email or message me on LinkedIn and X! -->
 
